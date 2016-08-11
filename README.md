@@ -149,7 +149,7 @@ To test, go to the root folder and type (sans __$__):
  
 ## Repo(s)
 
-* [bitbucket.org/mitchallen/microservice-mongodb-get-one.git](https://bitbucket.org/mitchallen/microservice-mongodb-get-one.git)
+* [bitbucket.org/mitchallen/microservice-mongodb-put.git](https://bitbucket.org/mitchallen/microservice-mongodb-put.git)
 
 * * *
 
@@ -162,17 +162,10 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 
 ## Version History
 
-#### Version 0.1.3 
+#### Version 0.1.2
 
-* updated code and test cases to return 404 for invalid or missing object ids
-
-#### Version 0.1.2 
-
-* cleaned up module dependencies
-
-#### Version 0.1.1 
-
-* updated music-get to use published module
+* Fixed repo reference in readme
+* updated music-put to use published module
 
 #### Version 0.1.0 
 
