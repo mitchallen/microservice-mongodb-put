@@ -162,6 +162,10 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 
 ## Version History
 
+#### Version 0.1.3
+
+* updated example file 
+
 #### Version 0.1.2
 
 * Fixed repo reference in readme
