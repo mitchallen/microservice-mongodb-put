@@ -22,6 +22,12 @@ You must use __npm__ __2.7.0__ or higher because of the scoped package name.
 
 Provides a way to update a record in MongoDB via REST PUT.
 
+__PUT__ is similar to __POST__ where you have to pass in data. But since you are updating a record that already exists, you need to also append a record id to the URL.
+
+    $ curl -i -X PUT -H "Content-Type: application/json" -d '{"email":"test@put.com","password":"foo","status":"UPDATED"}' http://localhost:3030/api/mytest/54ce6eca470103ca057b0097
+  
+The general philosophy with __PUT__ is that you should use it to replace the entire record, and you should use __PATCH__ to do partial updates. If you only pass in an incomplete set of fields, this component does a merge. Technically that isn't very RESTful. If you want to be more strict, simply make sure to pass in all fields.
+
 ### Non-Secure Only
 
 Please note that this module is for NON-SECURE put requests only. For ideas on how to create an SSL version see: [@mitchallen/microservice-ssl](https://www.npmjs.com/package/@mitchallen/microservice-ssl). You may also want to checkout [RichmondJS](https://www.npmjs.com/package/richmond).
