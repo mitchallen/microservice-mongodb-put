@@ -150,6 +150,7 @@ To test, go to the root folder and type (sans __$__):
 ## Repo(s)
 
 * [bitbucket.org/mitchallen/microservice-mongodb-put.git](https://bitbucket.org/mitchallen/microservice-mongodb-put.git)
+* [github.com/mitchallen/microservice-mongodb-put.git](https://github.com/mitchallen/microservice-mongodb-put.git)
 
 * * *
 
